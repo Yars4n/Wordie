@@ -294,6 +294,7 @@ function App() {
             setBoxLetters(newBoxLetters);
             setRandomLetter(secondRandomLetter);
             setSecondRandomLetter(randomLett);
+            order===4 ? setOrder(1):setOrder(order+1); 
             setSwaps(swaps - 1)
           }
         }
