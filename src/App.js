@@ -25,7 +25,7 @@ const defaultStates = {
     word: '',
     time: 120,
     count: 0,
-    swaps: 100,
+    swaps: 10,
     timeReward: 2,
     lose: false
 }
@@ -295,6 +295,7 @@ function App() {
             setRandomLetter(secondRandomLetter);
             setSecondRandomLetter(randomLett);
             order===4 ? setOrder(1):setOrder(order+1); 
+            console.log(order);
             setSwaps(swaps - 1)
           }
         }
@@ -472,7 +473,7 @@ function App() {
             i18n = {i18n}
             
         />
-       
+        
         
         {lose && <GameOver
             restartGame={restartGame}

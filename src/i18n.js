@@ -19,16 +19,11 @@ i18n
       sr: {
         translation: {
           swap: 'گۆڕین',
-          alphabet: 'ئاببپتجچحخددرڕزژسشعغفڤقکگلڵمنهەوۆیێ',
+          alphabet: 'ئاببپتجچحخددرڕزژسشعغفڤقکگلڵمنھەوۆیێ',
           vowel:'ایێۆو'
         },
       },
-      kr: {
-        translation: {
-          swap: 'Gorîn',
-          alphabet: 'mer',
-        },
-      },
+      
     },
     interpolation: {
       escapeValue: false,
